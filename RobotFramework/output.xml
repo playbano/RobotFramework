@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-08T07:46:38.647773" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\Lucas\Downloads\RobotFramework\Tests">
+<suite id="s1-s1" name="TestCase2" source="C:\Users\Lucas\Downloads\RobotFramework\Tests\TestCase2.robot">
+<test id="s1-s1-t1" name="TEST" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-08T07:46:38.693651" level="INFO">This is a second testsample</msg>
+<arg>This is a second testsample</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-08T07:46:38.693651" elapsed="0.000000"/>
+</kw>
+<tag>Demo2</tag>
+<status status="PASS" start="2024-05-08T07:46:38.692681" elapsed="0.001969"/>
+</test>
+<doc>testcases2</doc>
+<status status="PASS" start="2024-05-08T07:46:38.684675" elapsed="0.010971"/>
+</suite>
+<suite id="s1-s2" name="TestCase3" source="C:\Users\Lucas\Downloads\RobotFramework\Tests\TestCase3.robot">
+<test id="s1-s2-t1" name="TEST" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-08T07:46:38.700459" level="INFO">This is a third testsample</msg>
+<arg>This is a third testsample</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-08T07:46:38.700459" elapsed="0.000000"/>
+</kw>
+<tag>Demo2</tag>
+<status status="PASS" start="2024-05-08T07:46:38.700459" elapsed="0.000000"/>
+</test>
+<doc>testcases3</doc>
+<status status="PASS" start="2024-05-08T07:46:38.697470" elapsed="0.003987"/>
+</suite>
+<status status="PASS" start="2024-05-08T07:46:38.649792" elapsed="0.052685"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Demo2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestCase2">Tests.TestCase2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="TestCase3">Tests.TestCase3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

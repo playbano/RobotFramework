@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-08T08:14:34.290667" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\Lucas\Downloads\RobotFramework\Tests">
+<suite id="s1-s1" name="TestCase1" source="C:\Users\Lucas\Downloads\RobotFramework\Tests\TestCase1.robot">
+<test id="s1-s1-t1" name="TEST" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-08T08:14:34.336752" level="INFO">This is a sample</msg>
+<arg>This is a sample</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-08T08:14:34.335754" elapsed="0.000998"/>
+</kw>
+<tag>Demo1</tag>
+<status status="PASS" start="2024-05-08T08:14:34.335754" elapsed="0.000998"/>
+</test>
+<doc>testcases</doc>
+<status status="PASS" start="2024-05-08T08:14:34.326779" elapsed="0.010970"/>
+</suite>
+<suite id="s1-s2" name="TestCase2" source="C:\Users\Lucas\Downloads\RobotFramework\Tests\TestCase2.robot">
+<test id="s1-s2-t1" name="TEST" line="9">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-08T08:14:34.342737" level="INFO">This is a second testsample</msg>
+<arg>This is a second testsample</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-08T08:14:34.341739" elapsed="0.000998"/>
+</kw>
+<tag>Demo2</tag>
+<status status="PASS" start="2024-05-08T08:14:34.341739" elapsed="0.000998"/>
+</test>
+<doc>testcases2</doc>
+<status status="PASS" start="2024-05-08T08:14:34.338746" elapsed="0.004987"/>
+</suite>
+<suite id="s1-s3" name="TestCase3" source="C:\Users\Lucas\Downloads\RobotFramework\Tests\TestCase3.robot">
+<test id="s1-s3-t1" name="TEST" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-08T08:14:34.347724" level="INFO">MY VAR</msg>
+<arg>${var}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-08T08:14:34.347724" elapsed="0.000000"/>
+</kw>
+<tag>Demo2</tag>
+<status status="PASS" start="2024-05-08T08:14:34.346753" elapsed="0.000971"/>
+</test>
+<doc>testcases3</doc>
+<status status="PASS" start="2024-05-08T08:14:34.344730" elapsed="0.003991"/>
+</suite>
+<status status="PASS" start="2024-05-08T08:14:34.292663" elapsed="0.057084"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Demo1</stat>
+<stat pass="2" fail="0" skip="0">Demo2</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestCase1">Tests.TestCase1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="TestCase2">Tests.TestCase2</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s3" name="TestCase3">Tests.TestCase3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
